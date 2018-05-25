@@ -35,3 +35,40 @@ footer {
     height: 100%;
     background-color: darkgray;
 }
+
+.project-tile {
+    margin: auto;
+    background-image: url("http://i0.kym-cdn.com/entries/icons/original/000/021/807/4d7.png");
+    background-size: 250px;
+    width: 250px;
+    height: 190px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.project-tile > img {
+    width: 100%;
+    z-index: 0;
+    
+}
+
+.project-title {
+    background: #4AAAA5;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+    position: absolute;
+    top: 130px;
+}
+
+.project-title > p {
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+#submit {
+    background-color: #4AAAA5 !important;
+    color: white;
+}
